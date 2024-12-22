@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/philmographie/static/css/main.d49956aa.css",
+    "main.js": "/philmographie/static/js/main.f4d95c56.js",
+    "index.html": "/philmographie/index.html",
+    "main.d49956aa.css.map": "/philmographie/static/css/main.d49956aa.css.map",
+    "main.f4d95c56.js.map": "/philmographie/static/js/main.f4d95c56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d49956aa.css",
+    "static/js/main.f4d95c56.js"
+  ]
+}
