@@ -1,0 +1,15 @@
+.paginationContainer{
+    
+    text-align: center;
+}
+.nextButton:hover{
+    background-color: #333; 
+    color: #fff9db; 
+}
+.previousButton:hover{
+    background-color: #333; 
+    color: #fff9db; 
+}
+.numberPage{
+    color:rgb(245, 218, 173);
+}

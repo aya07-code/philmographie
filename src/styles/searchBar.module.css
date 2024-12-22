@@ -1,0 +1,26 @@
+.searchButtonContainers{
+    /* width: 25%; */
+    /* border: 1px solid yellow; */
+    display: inline-block;
+}
+.searchButtonContainers input {
+    /* width: 80%; */
+    padding: 12px 40px 12px 15px; 
+    font-size: 16px;
+    border: 2px solid rgb(239, 186, 95); 
+    border-radius: 15px; 
+    background-color: rgb(245, 218, 173);
+    color: #333; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.searchButtonContainers input::placeholder {
+    color: rgba(0, 0, 0, 0.605); 
+    font-style: italic;
+  }
+  
+
+.searchButtonContainers input:focus {
+    border-color: rgb(245, 218, 173); 
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.5); 
+  }

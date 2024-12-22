@@ -1,0 +1,51 @@
+
+.cardContainer {
+    width: 18%;
+    margin: 0.5% 1%;
+    background-color: rgb(245, 218, 173);
+    /* border: 1px solid  rgb(245, 218, 173); */
+    border-radius: 5px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    }      
+    .cardContainer div{
+        text-align: center;
+        /* border: 1px solid  rgb(245, 218, 173); */
+    }
+    .cardContainer button{
+        text-align: center;
+        border: 1px solid  rgb(245, 218, 173);
+    }
+    .cardContainer button{
+        text-align: center;
+        border: 1px solid  rgb(245, 218, 173);
+        border-radius: 5px;
+    }
+    .cardContainer2 div{
+        margin: 5px;
+    }
+    
+    .title{
+        font-size: larger;
+        font-weight: bold;
+    }
+    button{
+        background-color: rgba(240, 185, 95, 0.7);
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+    }
+    img{
+        width: 25px;
+        aspect-ratio: 1;
+        /* border: 1px solid red; */
+        right: 41%;
+        
+    }
+.cardContainer:hover {
+    transform: scale(1.02);
+}

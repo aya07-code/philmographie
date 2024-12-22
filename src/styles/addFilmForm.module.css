@@ -1,0 +1,35 @@
+.form{
+    margin:50px 400px;
+    width: 24%;
+    display: inline-block;
+    color: black;
+    font-size: 17px;
+    font-weight: 550;
+    padding: 12px 40px 12px 15px; 
+    background-color: rgb(241, 236, 227);
+    border-radius: 7px;
+}
+.form input {
+    width: 290px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding: 8px 10px ; 
+    font-size: 16px;
+    border: 2px solid rgb(244, 200, 123); 
+    border-radius: 15px; 
+    background-color: rgb(240, 232, 219);
+    color: rgb(239, 186, 95); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.form button {
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding: 8px ; 
+    font-size: 16px;
+    border: 2px solid rgb(236, 164, 41); 
+    border-radius: 5px; 
+    background-color: rgb(240, 232, 219);
+    color:  rgb(236, 164, 41); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

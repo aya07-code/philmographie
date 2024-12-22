@@ -1,0 +1,62 @@
+.filmographieBody{
+  background-color: rgb(37, 35, 31);
+  /* background-color: rgb(244, 238, 225); */
+    display:flex;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+.addFilmButton{
+    width: 17%;
+    padding: 12px 4px ; 
+    font-size: 16px;
+    border: 2px solid rgb(239, 186, 95); 
+    border-radius: 15px; 
+    background-color: rgb(245, 218, 173);
+    color: #333; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.films h2{
+  color: rgb(245, 218, 173);
+  padding: 0px 20px;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+.searchBarButtons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 5px 10PX;
+}
+.searchBarButtons div , .searchBarButtons button{
+  flex:1;
+  text-align: center;
+}
+.filterButtons{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+  .favorites h2 {
+    color: rgb(245, 218, 173); 
+    font-size: 1.7rem;
+    margin-bottom:10px;
+    margin-top:-10px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+  }
+  
+  .favorites .movieCard {
+    border: 1px solid rgb(227, 161, 56); 
+    background-color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+    border: 3px solid rgb(227, 161, 56);
+  
+  }
+  
+  .favorites .movieCard:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

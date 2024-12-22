@@ -1,0 +1,12 @@
+.moveListPagination{
+    display: flex;
+    flex-direction: column;
+}
+.movieListContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+.pagination{
+    margin-bottom: 35px;
+}
